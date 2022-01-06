@@ -1,0 +1,35 @@
+.container-fluid {
+    padding: 0;
+}
+
+.nav {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    margin: 20px;
+}
+
+.nav_overlay {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+#nav__menu {
+    display: none;
+}
+
+#nav__menu:checked {}
+
+.nav__menu--mobile {
+    width: 250px;
+    /* display: none; */
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    background-color: red;
+}
